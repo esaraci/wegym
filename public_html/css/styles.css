@@ -1,0 +1,728 @@
+body {
+	background-color: #EEEEEE;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color:#333333;
+	overflow-x:hidden;
+	min-width: 320px;
+}
+
+#container {
+	width:100%;
+	max-width: 1024px;
+	margin: auto;
+	background-color:#EEEEEE;
+	border: 1px #FFFFFF solid;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+
+#header { 
+	background-color: #333333;
+	text-align: center; 
+	font-size: 22px;
+    color: #FFFFFF;
+}
+
+#header h1 {
+	margin:0;
+	padding:20px 0;
+}
+
+#menuLink {
+	display:none;
+}
+
+#menuDiv {
+	display: none;
+}
+
+#motto {
+	font-style:italic;
+    color: #FFFFFF;
+    margin:0;
+    padding-bottom: 10px;
+}
+
+
+#path {
+	background-color: #00CC33;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+#path p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+#nav {
+	float:left;
+	width:15%;
+	background-color: #333333;
+	min-height:619px;
+	border-right:1px #000000 solid;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin:0;
+	padding:2px;
+	font-size:18px;
+	background-color: #333333;
+	text-align: center;
+	border:0px;
+}
+
+#nav li {
+	height:60px;
+	border-top: 1px #FFFFFF solid;
+}
+
+#nav #amministrazioneBtn {
+	display: none;
+}
+
+#right{
+	float:right;
+	width: 20%;
+	height:100%;
+	border-left:2px solid;
+	background-color: #333333;
+    color: #FFFFFF;
+}
+
+#right form {
+	padding-left:10px;
+}
+
+#login {
+	width:95%;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 15px;
+	}
+   
+.textBox {
+	width:90%;
+}
+
+#login legend {
+	color:#FFFFFF;
+	text-align: center;
+}
+
+#submit_button {
+	margin:5px;
+}
+
+#news {
+	font-size:16px;
+	padding:2px;
+}
+
+.notizia {
+	border-top:1px solid;
+}
+
+
+.notizia h2 {
+	font-size: 1.4em;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+.notizia p {
+	font-size:0.9em;
+	padding:0 10px;
+}
+
+#corpo {
+	height: 100%;
+	min-height:450px;
+	background-color: #EEEEEE;
+	margin-left:15%;
+	margin-right:20%;
+	padding:10px 20px 20px 20px;
+}
+
+#corpo #login legend {
+	color: #000000;
+}
+
+#footer {
+	clear:both;
+	background-color: #00CC33;
+	border-top:2px solid;
+	padding:15px;
+}
+
+#link_admin {
+	font-size:0.8em;
+	float:right;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+#diritti {
+	width:100%;
+	font-size:0.6em;
+	text-align: center;
+}	
+	
+
+#diritti p {
+	font-style: italic;
+	color: #FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+/* UTILITIES */
+.centra {
+	display: block;
+	margin:auto;
+}
+
+
+.letteraRisalto {
+	color:#00CC33;
+}
+
+/* LINK */
+
+#nav a:link {
+	text-decoration: none;
+}
+
+#nav a:visited {
+	text-decoration: none;
+}
+
+a:link{
+    color:#00CC33;
+    
+}
+
+a:visited{
+ 	color:#009966;   
+}
+
+.active {
+	color:#FFFFFF;
+}
+
+.active p {
+	margin:0;
+	padding-top: 15px;
+}
+
+a:hover{
+	color:#FFFFFF;
+	background-color: #00CC33;
+	font-weight: bold;
+}
+
+.navBtn {
+	display:block;
+	margin:auto;
+	height:40px;
+	padding-top:20px;
+}
+
+#primo {
+	border-top-color: #333333 !important;
+}
+
+
+ /* PRODOTTI */
+#ricerca {
+	margin-bottom: 30px;
+	text-align: center;
+	margin-right:10px;
+}
+
+#ricerca label {
+	font-size: 0.8em;
+}
+
+#ricerca select {
+	width:90%;
+}
+
+.prezzoTextBox {
+	display: block;
+	width :30px;
+	margin:auto;
+}
+
+#filtra_button {
+	margin-top:10px;
+}
+
+/* prodotti in corpo */
+#cont_prodotti {
+	text-align: center; 
+	margin-top:25px;
+}
+
+.prodotto {
+	display: inline-block;
+	width:35%;
+	height:35%;
+	padding:5px 15px;
+	border:1px #000000 solid;
+	margin:10px;
+}
+
+.prodotto p {
+	padding:0;
+	margin:0;
+}
+
+.immagine_p {
+	width:150px;
+	height:150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pagine {
+	width:30%;
+	display: block;
+	margin:auto;
+}
+
+#pagine p {
+	margin-bottom:0;
+}	
+
+#pag_sel {
+	text-decoration: none;
+}
+
+/*UNIVERSAL FORM*/
+
+.universal_form {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.universal_form label {
+    width:80px;
+    display: block;
+    margin: 0px 0px 5px;
+
+}
+
+.universal_form fieldset {
+	display: block;
+	margin:auto;
+	width:80%;
+}
+
+.universal_form input[type="text"], .universal_form textarea,.universal_form select{
+    color: #555;
+    width: 90%;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    line-height:15px;
+}
+
+.universal_form input[type="file"] {
+    color: #555;
+    width: 70%;
+    padding: 3px 0px 3px 5px;
+    height: 25px;
+    line-height:15px;
+}
+
+.universal_form input[type="submit"] {
+	display: block;
+	border: 1px solid #ccc;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.universal_form textarea{
+    height: 50px;
+    padding: 5px 0px 0px 5px;
+    width: 90%;
+}
+
+
+/* CORSI */
+
+#cont_corsi img {
+	width:35%;
+	float:left;
+}
+
+.corso {
+	height:180px;
+	width:100%;
+	margin-top:15px;
+}
+.corso h2 {
+	margin-top:10px;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+.corso img {
+	display: block;
+	max-height: 140px;
+	max-width: 170px;
+}
+
+.corso p {
+	display: block;
+}
+
+.descr_corso {
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
+	margin-left:35%;
+	padding-left: 15px;
+}
+
+
+/* GALLERIA */
+
+#galleria_cont {
+	text-align: center;
+}
+
+.foto_galleria {
+	display: inline-block;
+	width:49%;
+	height: 35%;
+}
+
+.foto_galleria img {
+	width:100%;
+	height:180px;
+}
+
+table {
+	width:90%;
+	margin:auto;
+}
+
+table th {
+	font-size: 0.9em;
+}
+
+table td {
+	font-size: 0.8em;
+	text-align: center;
+	border:1px black solid;
+}
+
+.link_alter:link {
+	color:#FFFFFF !important;
+}
+
+.link_alter:visited {
+	color:#FFFFFF;
+}
+
+.aiuti {
+	position: absolute;
+	height: 0;
+	overflow: hidden;
+}
+
+.informazioni {
+	margin-bottom:0;
+}
+
+.informazioni_p {
+	margin-top:0;
+}
+
+#mappa {
+	display: block;
+	margin:auto;
+	height:20%;
+	width:80%;
+}
+
+#img_home {
+	height:20%;
+	width:80%;
+}
+
+#errore {
+	text-align: center;
+	color:red;
+}
+
+@media screen and (max-width: 769px) {
+
+	#header h1 {
+		padding:10px; 	
+	}
+
+	#motto {
+		display: none;
+	}
+	
+	#path p {
+		padding: 5px 0;
+	}
+
+	.togliere{
+		display: none;
+	}
+
+	.ricerca_corsi {
+		border:0 !important;
+		position:absolute;
+		top: 160px;
+		height: 32px !important;
+		width:100% !important;
+	}
+
+	#right {
+		display: none;
+	}
+
+	.cors_mod {
+		display: block !important;
+	}
+
+
+	.ricerca_corsi #ricerca legend {
+		display: none;
+	}
+
+	.ricerca_corsi #ricerca fieldset {
+		border: 0;
+		height:40px;
+		padding-bottom: 5px;
+		width:340px;
+		margin:auto;
+	}
+
+	.ricerca_corsi #ricerca select {
+		float:left;
+		margin-bottom:5px;
+		width: 25%;
+		margin-right:10px;
+	}
+
+	.ricerca_corsi #ricerca label {
+		display: block;
+		float:left;
+		font-size: 0.7em;
+	}
+
+	.ricerca_corsi #ricerca input[type="text"] {
+		float:left;
+		margin:0;
+		margin-left:5px;
+		margin-right:10px;
+	}
+
+
+	.ricerca_corsi #ricerca input[type="submit"] {
+		float:left;
+		margin:0;
+		padding:0;
+	}
+
+	#corpo {
+		margin:0 2%;
+		min-height:350px;
+	}
+
+	#nav {
+		width:100%;
+		min-height:0;
+		float:none;	
+		border:0;
+	}
+
+	#nav ul {
+		height: 40px;
+		width:590px;
+		display:block;
+		margin:auto;
+		font-size: 0.9em;
+		padding:0;	
+	}
+
+	#nav li {
+		width:80px;
+		height:40px;
+		float:left;
+		border-top: none;
+		border-right:1px #FFFFFF solid;	
+	}
+
+	#nav li:hover {
+		background-color: #00CC33;
+	}
+
+	#nav #ultimo {
+		border-right: 0px;
+	}
+
+	.navBtn {
+		height:20px;
+		padding:10px 0;
+	}
+
+	.navBtn:hover {
+		background-color: #00CC33; 
+	}
+
+	.active p {
+		padding-top: 10px;
+	}
+
+	.active:hover {
+		background-color: transparent !important;
+	}
+
+	#nav #amministrazioneBtn {
+		display: block;
+		border-left:1px #FFFFFF solid;
+	}
+
+
+}
+
+@media screen and (max-width: 600px) {
+	
+	#header {
+		height:60px;
+	}
+
+	#header h1 {
+		display: block;
+		float: left;
+		width: 100%;
+		font-size:35px;
+		padding:5px 0 0 0;
+		margin:auto;
+	}
+	
+	#menu {
+		width: 45px;
+		height: 30px;
+		display: block;
+		float: right;
+		border: 2px #EEEEEE solid;
+		border-radius: 10px;
+		padding-top:3px;
+		cursor: pointer;
+		color: #EEEEEE;
+		position: relative;
+		top: -49px;
+		right: 25px;
+	}
+	
+	#menu span {
+		font-size: 20px;
+		margin-left:10px;
+		line-height: 4px;
+		letter-spacing: -3px;
+		display: block;
+	}
+
+	#corpo {
+		margin-top:10px;
+	}
+	
+	#nav {
+		width:100% !important;
+	}
+
+	#nav ul {
+		width:100%;
+		border-top: 1px #FFFFFF solid;
+		font-size:0.8em;
+
+	}
+
+	#nav li {
+		width:15%;
+	}
+
+	#right .cors_modifica fieldset {
+		padding-left:2px;	
+	}	
+
+	#path {
+		display: none;
+	}
+
+
+	.ricerca_corsi {
+		border-top: 1px #FFFFFF solid !important;
+		top:100px;
+	}
+
+	#menuLink:focus + #nav {
+		display: block;
+	}
+
+	#pagine {
+		font-size: 0.8em;
+	}
+
+	.universal_form {
+		width: 90%;
+		margin:auto;
+		padding-left:0;
+	}
+
+	.universal_form fieldset {
+		width: 100%;
+	}
+
+	.universal_form input[type="text"], .universal_form textarea {
+		width:90%;
+	}
+
+	.prodotto {
+		display: block;
+		width:80%;
+		margin:15px auto;
+	}
+
+	.foto_galleria {
+		width:100%;
+	}
+
+	.foto_galleria h2 {
+		margin-bottom:5px;
+	}
+
+	.foto_galleria img {
+		height:80%;
+	}
+
+
+}
+
+
+
+
+
+

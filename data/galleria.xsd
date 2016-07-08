@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="wegym galleria"
+	targetNamespace="wegym galleria"
+	elementFormDefault="qualified">
+	<xsd:element name="galleria">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="foto" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="titolo" type="xsd:string"/>
+							<xsd:element name="img_galleria" type="Timg"/>
+							<xsd:element name="alt" type="xsd:string"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:simpleType name="Timg">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="(.)+\.(gif|jpg|jpeg|bmp)"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

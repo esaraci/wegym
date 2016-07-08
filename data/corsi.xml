@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<corsi>
+	<corso>
+		<titolo>Zumba</titolo>
+		<alt>Logo Corso di Zumba</alt>
+		<img_corso>GsTeMNUD.jpg</img_corso>
+		<descrizione>Sei stressato/a e non hai un lavoro che occupi il tuo tempo in modo produttivo. Vieni a fare Zumba.</descrizione>
+	</corso>
+	<corso>
+		<titolo>Salsa</titolo>
+		<alt>Logo Corso di Salsa Wegym</alt>
+		<img_corso>PvErKaQU.jpg</img_corso>
+		<descrizione>Venite a imparare questo ballo passionale. Ballare è vivere e noi vi insegneremo entrambe le cose.</descrizione>
+	</corso>
+	<corso>
+		<titolo>MMA</titolo>
+		<alt>Logo Corso di MMA Wegym</alt>
+		<img_corso>ubXzWLUR.png</img_corso>
+		<descrizione>L'MMA farà di voi dei grandi combattenti. I vostri avversari non sapranno scegliere che parata usare per difendersi dai mille e più possibili colpi che vi insegneremo.</descrizione>
+	</corso>
+	<corso>
+		<titolo>Boxe</titolo>
+		<alt>Logo Corso di Boxe</alt>
+		<img_corso>LwVrHbml.jpg</img_corso>
+		<descrizione>Il corso di Box offerto da Wegym forgerà i partecipanti in guerrieri senza paura, capaci di sconfiggere ogni avversario con un solo devastante pugno.</descrizione>
+	</corso>
+</corsi>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<galleria>
+	<foto>
+		<titolo>Spogliatoi</titolo>
+		<img_galleria>kgnVYEFb.jpg</img_galleria>
+		<alt>Spogliatoi Wegym</alt>
+	</foto>
+	<foto>
+		<titolo>Sauna</titolo>
+		<img_galleria>EtPTXlTk.jpg</img_galleria>
+		<alt>Sauna Wegym</alt>
+	</foto>
+	<foto>
+		<titolo>Sala Corsi</titolo>
+		<img_galleria>bBrbbVdw.jpg</img_galleria>
+		<alt>Sala Corsi Wegym</alt>
+	</foto>
+	<foto>
+		<titolo>Sala Pesi</titolo>
+		<img_galleria>sNlIFxWz.jpg</img_galleria>
+		<alt>Sala Pesi Wegym</alt>
+	</foto>
+	<foto>
+		<titolo>Sala Massaggi</titolo>
+		<img_galleria>qYqukPSQ.jpg</img_galleria>
+		<alt>Sala Massaggi Wegym</alt>
+	</foto>
+	<foto>
+		<titolo>Docce</titolo>
+		<img_galleria>fzbjjcAq.jpg</img_galleria>
+		<alt>Docce Wegym</alt>
+	</foto>
+	
+</galleria>

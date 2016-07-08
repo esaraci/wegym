@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="wegym corsi"
+	targetNamespace="wegym corsi"
+	elementFormDefault="qualified">
+	<xsd:element name="corsi">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="corso" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="titolo" type="xsd:string"/>
+							<xsd:element name="alt" type="xsd:string"/>
+							<xsd:element name="img_corso" type="Timg"/>
+							<xsd:element name="descrizione" type="xsd:string"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:simpleType name="Timg">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="(.)+\.(gif|jpg|jpeg|bmp)"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

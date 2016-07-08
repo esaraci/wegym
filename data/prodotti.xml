@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<prodotti>
+	<prodotto>
+		<titolo>Barrette A</titolo>
+		<alt>Immagine Barrette</alt>
+		<marca>ProMuscle</marca>
+		<prezzo>23</prezzo>
+		<img_prodotto>QyEXCMEV.jpg</img_prodotto>
+		<categoria>snacks</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Pantaloncini SMT</titolo>
+		<alt>Immagini Pantaloncini SMT</alt>
+		<marca>Pannolenci</marca>
+		<prezzo>36</prezzo>
+		<img_prodotto>nIpLzvbx.jpg</img_prodotto>
+		<categoria>pantaloncini</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Pantaloncini Sweet</titolo>
+		<alt>Immagini Pantaloncini Sweet</alt>
+		<marca>Sweet Love</marca>
+		<prezzo>36</prezzo>
+		<img_prodotto>zdFUMkbB.jpg</img_prodotto>
+		<categoria>pantaloncini</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Pantaloncini SM</titolo>
+		<alt>Immagine pantaloncini</alt>
+		<marca>Pannolenci</marca>
+		<prezzo>78</prezzo>
+		<img_prodotto>glllWVnM.jpg</img_prodotto>
+		<categoria>pantaloncini</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Pantaloncini S</titolo>
+		<alt>Immagine pantaloni neri</alt>
+		<marca>Pannolenci</marca>
+		<prezzo>56</prezzo>
+		<img_prodotto>GDjpQNPr.jpg</img_prodotto>
+		<categoria>pantaloncini</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Protein Powder</titolo>
+		<alt>Immagine Protein Powder</alt>
+		<marca>Biotech</marca>
+		<prezzo>20</prezzo>
+		<img_prodotto>PaEfmCWx.png</img_prodotto>
+		<categoria>integratori</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Whey protein</titolo>
+		<alt>Immagine integratore Whey</alt>
+		<marca>EAS</marca>
+		<prezzo>67</prezzo>
+		<img_prodotto>VNiZeAFg.jpg</img_prodotto>
+		<categoria>integratori</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Muscle Milk</titolo>
+		<alt>Immagine Muscle Milk</alt>
+		<marca>Genuine</marca>
+		<prezzo>80</prezzo>
+		<img_prodotto>EQXGdGQV.jpg</img_prodotto>
+		<categoria>integratori</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Proteine Hemp</titolo>
+		<alt>Immagine integratore</alt>
+		<marca>GOOD</marca>
+		<prezzo>23</prezzo>
+		<img_prodotto>fwzYbMpL.jpg</img_prodotto>
+		<categoria>integratori</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Guanti Box Leone Gold</titolo>
+		<alt>Immagine Guanti Leone Oro</alt>
+		<marca>Leone</marca>
+		<prezzo>150</prezzo>
+		<img_prodotto>AdNJTLqo.jpg</img_prodotto>
+		<categoria>guanti</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Guanti Leone Rossi</titolo>
+		<alt>Immagine Guanti Leone Rossi</alt>
+		<marca>Leone</marca>
+		<prezzo>123</prezzo>
+		<img_prodotto>ttOTKvtH.jpg</img_prodotto>
+		<categoria>guanti</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Guanti Box Leone Militari</titolo>
+		<alt>Immagine Guanti Leone Militari</alt>
+		<marca>Leone</marca>
+		<prezzo>56</prezzo>
+		<img_prodotto>tXBnPrLF.jpg</img_prodotto>
+		<categoria>guanti</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Guanti Box Ironitro Blu</titolo>
+		<alt>Immagine Guanti Ironitro</alt>
+		<marca>Ironitro</marca>
+		<prezzo>78</prezzo>
+		<img_prodotto>GkjMyQjh.jpg</img_prodotto>
+		<categoria>guanti</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Guanti Box Leggendari</titolo>
+		<alt>Immagine Guanti Leggendari</alt>
+		<marca>Legend</marca>
+		<prezzo>1040</prezzo>
+		<img_prodotto>CmqXfUcL.jpg</img_prodotto>
+		<categoria>guanti</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Guanti MMA Venum Neri </titolo>
+		<alt>Immagine Guanti Venum</alt>
+		<marca>Venum</marca>
+		<prezzo>45</prezzo>
+		<img_prodotto>klFdwWuY.jpg</img_prodotto>
+		<categoria>guanti</categoria>
+	</prodotto>
+	<prodotto>
+		<titolo>Guanti Leone Neri</titolo>
+		<alt>Immagine prodotto guanti leone</alt>
+		<marca>Leone</marca>
+		<prezzo>57</prezzo>
+		<img_prodotto>bQjEKGKr.jpg</img_prodotto>
+		<categoria>guanti</categoria>
+	</prodotto>
+
+</prodotti>

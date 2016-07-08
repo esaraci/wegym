@@ -1,0 +1,77 @@
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#motto {
+	display: none;
+}
+
+#right {
+	display: none;
+}
+
+#nav {
+	display: none;
+}
+
+#footer {
+	display: none;
+}
+
+form {
+	display: none;
+}
+
+table td {
+	border:1px #000000 solid;
+}
+
+table td a {
+	display: none;
+}
+
+a:link {
+	font-color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	font-color: #000000;
+}
+
+.centra {
+	display: none;
+}
+
+#pagine {
+	display:none;
+}
+
+.prodotto {
+	width:30%;
+	display: inline-block;
+	float:left;
+}
+.immagine_p {
+	width:80%;
+	height:80%;
+}
+
+.imgcorso {
+	display:none;	
+}
+
+.foto_galleria {
+	display: inline-block;
+	width:30%;
+}
+
+.foto_galleria img {
+	width:80%;
+	height:80%;
+}
+
+.aiuti {
+	display: none;
+}
